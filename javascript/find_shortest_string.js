@@ -1,8 +1,30 @@
+//My Function
+// function findShortestString(arr) {
+//   let shortString = ''
+//   let y = 0
+//   for (string of arr) {
+//     x = string.length
 
-// Time Complexity:  O(n)
-// Space Complexity: O(1)
+//     if (x === 0) {
+//       shortString = string
+//       return shortString
+//     }
+    
+//     if (y === 0){
+//       y = x
+//       shortString = string
+//     }
 
+//     if (x < y && y !== 0) {
+//       shortString = string
+//       y = x
+//     }
+    
+//   }
+//   return shortString
+// }
 
+//Ben's Function
 function findShortestString(arr) {
   let smallest = arr[0]
   for (let i = 0; i < arr.length; i++) {
